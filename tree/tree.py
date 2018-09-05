@@ -2,6 +2,7 @@
 from stack.stack import Stack
 from stack.node import Node
 
+
 class BinaryTree(object):
     def __init__(self, value):
         self.value = value

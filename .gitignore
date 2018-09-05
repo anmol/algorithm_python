@@ -46,4 +46,4 @@ htmlcov/
 nosetests.xml
 coverage.xml
 
-
+venv
