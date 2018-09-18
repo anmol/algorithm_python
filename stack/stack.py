@@ -1,52 +1,30 @@
 #!/usr/bin/env python2.7
 
-from node import Node
 
-
-class Stack(object):
+class Stack:
     def __init__(self):
-        self.head = None
-        self.count = 0
+        self._items = []
 
-    def push(self, n):
-        if self.count == 0:
-            self.head = n
-        else:
-            temp_head = self.head
-            self.head = n
-            n.next = temp_head
-        self.count += 1
+    def push(self, item):
+        self._items.append(item)
 
     def pop(self):
-        item = self.head
-        self.head = self.head.next
-        self.count -= 1
-        return item
+        return self._items.pop()
 
     def is_empty(self):
-        if self.count == 0:
-            return True
-        else:
-            return False
+        return self._items == []
 
-    def print_stack(self):
-        print "\nhead:" + str(self.head.data),
-        i = self.head
-        while i.next is not None:
-            print str(i.data) + " ->",
-            i = i.next
-        print str(i.data)
+    def peek(self):
+        return self._items[len(self._items) - 1]
+
+    def size(self):
+        return len(self._items)
 
 
 if __name__ == "__main__":
     s = Stack()
-    s.push(Node(10))
-    s.push(Node(20))
-    s.push(Node(40))
-    s.push(Node(30))
-    s.push(Node(80))
-    s.print_stack()
-    s.pop()
-    s.pop()
-    s.print_stack()
+    s.push(10)
+    s.push(20)
+    s.push([1,2,3])
+    print s.peek()
 
