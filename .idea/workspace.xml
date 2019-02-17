@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b038e3ec-7fc4-4796-bb75-7d5f38bfe8e7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/random_problems/max_subarray_problem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorting/heap_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorting/quick_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/binary_search_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/random_problems/find_right_sibling.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm_python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm_python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_problems/max_contiguous_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/random_problems/max_contiguous_array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack/stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/stack/stack.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,6 +19,7 @@
     <SUITE FILE_PATH="coverage/algorithm_python$tree.coverage" NAME="tree Coverage Results" MODIFIED="1535453009867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
     <SUITE FILE_PATH="coverage/algorithm_python$merge_sort.coverage" NAME="merge_sort Coverage Results" MODIFIED="1535648985567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sorting" />
     <SUITE FILE_PATH="coverage/algorithm_python$quick_sort.coverage" NAME="quick_sort Coverage Results" MODIFIED="1536243309198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sorting" />
+    <SUITE FILE_PATH="coverage/algorithm_python$find_right_sibling.coverage" NAME="find_right_sibling Coverage Results" MODIFIED="1550156416707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random_problems" />
     <SUITE FILE_PATH="coverage/algorithm_python$tree_serde.coverage" NAME="tree_serde Coverage Results" MODIFIED="1535609160595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
     <SUITE FILE_PATH="coverage/algorithm_python$insertion_sort.coverage" NAME="insertion_sort Coverage Results" MODIFIED="1535612161369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sorting" />
     <SUITE FILE_PATH="coverage/algorithm_python$max_subarray_problem.coverage" NAME="max_subarray_problem Coverage Results" MODIFIED="1536760971415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random_problems" />
@@ -35,108 +30,67 @@
     <session id="1340251747">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="7" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="7797" />
+          <entry key="py" value="8956" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="7797" />
+          <entry key="Python" value="8956" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="21" />
+          <entry key="py" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="21" />
+          <entry key="Python" value="24" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sorting/heap_sort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-              <folding>
-                <marker date="1536225634977" expanded="true" signature="1393:1396" ph="..." />
-                <marker date="1536225634977" expanded="true" signature="1518:1521" ph="..." />
-                <marker date="1536225634977" expanded="true" signature="2072:2077" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/random_problems/max_subarray_problem.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1455">
-              <caret line="97" column="20" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tree/binary_search_tree.py">
+        <entry file="file://$PROJECT_DIR$/random_problems/find_right_sibling.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="104" column="17" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
+            <state relative-caret-position="795">
+              <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
               <folding>
-                <marker date="1537254505827" expanded="true" signature="230:235" ph="..." />
-                <marker date="1537254505827" expanded="true" signature="1829:1988" ph="..." />
-                <marker date="1537254505827" expanded="true" signature="2292:2304" ph="..." />
+                <marker date="1550156411366" expanded="true" signature="160:165" ph="..." />
+                <marker date="1550156411366" expanded="true" signature="486:550" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stack/stack.py">
+        <entry file="file://$PROJECT_DIR$/tree/node.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="105">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stack/node.py">
+        <entry file="file://$PROJECT_DIR$/tree/tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tree/tree_serde.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="8" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/random_problems/max_contiguous_array.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="32" column="19" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="19" />
+            <state relative-caret-position="-994">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -184,6 +138,7 @@
         <option value="$PROJECT_DIR$/random_problems/max_subarray_problem.py" />
         <option value="$PROJECT_DIR$/stack/stack.py" />
         <option value="$PROJECT_DIR$/tree/binary_search_tree.py" />
+        <option value="$PROJECT_DIR$/random_problems/find_right_sibling.py" />
       </list>
     </option>
   </component>
@@ -277,7 +232,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.binary_search_tree">
+  <component name="RunManager" selected="Python.find_right_sibling">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -318,7 +273,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="heap_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="find_right_sibling" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -326,12 +281,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sorting" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/random_problems" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sorting/heap_sort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/random_problems/find_right_sibling.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -425,18 +380,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.max_contiguous_array" />
-      <item itemvalue="Python.heap_sort" />
       <item itemvalue="Python.max_subarray_problem" />
       <item itemvalue="Python.stack" />
       <item itemvalue="Python.binary_search_tree" />
+      <item itemvalue="Python.find_right_sibling" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.find_right_sibling" />
         <item itemvalue="Python.binary_search_tree" />
         <item itemvalue="Python.stack" />
         <item itemvalue="Python.max_contiguous_array" />
         <item itemvalue="Python.max_subarray_problem" />
-        <item itemvalue="Python.heap_sort" />
       </list>
     </recent_temporary>
   </component>
@@ -459,18 +414,19 @@
       <workItem from="1536654181894" duration="1053000" />
       <workItem from="1536740657108" duration="13286000" />
       <workItem from="1536896557318" duration="3815000" />
-      <workItem from="1536983752049" duration="9110000" />
+      <workItem from="1536983752049" duration="9437000" />
+      <workItem from="1549551185252" duration="4999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76497000" />
+    <option name="totallyTimeSpent" value="81823000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18884121" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19098713" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -482,14 +438,14 @@
       <window_info id="Job Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32930845" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6602289" visible="true" weight="0.3410959" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5550787" weight="0.39863014" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6587983" visible="true" weight="0.3410959" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.55436337" weight="0.39863014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.3397711" side_tool="true" visible="true" weight="0.3410959" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.34120172" side_tool="true" visible="true" weight="0.3410959" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="MaxCompute Console" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
@@ -574,20 +530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tree/node.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree/tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dp/cut_rod.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -630,22 +572,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sorting/heap_sort.py">
+    <entry file="file://$PROJECT_DIR$/tree/binary_search_tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        <state relative-caret-position="321">
+          <caret line="109" column="27" lean-forward="true" selection-start-line="109" selection-start-column="27" selection-end-line="109" selection-end-column="27" />
           <folding>
-            <marker date="1536225634977" expanded="true" signature="1393:1396" ph="..." />
-            <marker date="1536225634977" expanded="true" signature="1518:1521" ph="..." />
-            <marker date="1536225634977" expanded="true" signature="2072:2077" ph="..." />
+            <marker date="1537254505827" expanded="true" signature="230:235" ph="..." />
+            <marker date="1537254505827" expanded="true" signature="1829:1988" ph="..." />
+            <marker date="1537254505827" expanded="true" signature="2292:2304" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random_problems/max_subarray_problem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1455">
+        <state relative-caret-position="401">
           <caret line="97" column="20" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting/heap_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stack/stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -670,21 +626,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stack/stack.py">
+    <entry file="file://$PROJECT_DIR$/tree/node.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="105">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tree/binary_search_tree.py">
+    <entry file="file://$PROJECT_DIR$/tree/tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="104" column="17" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
+        <state relative-caret-position="-994">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_problems/find_right_sibling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
           <folding>
-            <marker date="1537254505827" expanded="true" signature="230:235" ph="..." />
-            <marker date="1537254505827" expanded="true" signature="1829:1988" ph="..." />
-            <marker date="1537254505827" expanded="true" signature="2292:2304" ph="..." />
+            <marker date="1550156411366" expanded="true" signature="160:165" ph="..." />
+            <marker date="1550156411366" expanded="true" signature="486:550" ph="..." />
           </folding>
         </state>
       </provider>
