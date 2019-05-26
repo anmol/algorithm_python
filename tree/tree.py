@@ -1,4 +1,3 @@
-#!/usr/bin/env python2.7
 from stack.stack import Stack
 from stack.node import Node
 
