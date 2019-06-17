@@ -5,6 +5,7 @@ Find the length of the smallest substring with maximum number of distinct charac
 
 """
 
+
 def _initialize_char_indices():
     char_idx = [-1] * 256
     return char_idx

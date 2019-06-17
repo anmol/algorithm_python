@@ -1,8 +1,9 @@
-'''
+"""
 Created on Jul 29, 2018
 
 @author: agautam1
-'''
+"""
+
 
 def create_triangle(arr):
     arr2 = []
@@ -15,6 +16,7 @@ def create_triangle(arr):
         i = i + 1
         end = end + i    
     return arr2
+
 
 def find_max_sum(t_arr):
     s = len(t_arr)
@@ -31,7 +33,7 @@ def find_max_sum(t_arr):
 
 if __name__ == '__main__':
     arr = [3, 7, 4, 2, 4, 6, 8, 5, 9, 3]
-    #arr = [3, 7, 4, 2, 4, 6]
+    # arr = [3, 7, 4, 2, 4, 6]
     
     t_arr = create_triangle(arr)
     print t_arr
