@@ -14,13 +14,6 @@ def pair_diff(arr, k):
         mem.add(arr[i])
     return total
 
-def pair_diff2(arr, k):
-    mem = {}
-    for i in range(len(arr)):
-        for j in range(i+1, len(arr)):
-            if arr[j] - arr[i]
-
-
 
 if __name__ == '__main__':
     input = [7, 5, 8, 9, 1]
