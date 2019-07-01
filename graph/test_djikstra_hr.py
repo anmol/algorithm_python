@@ -1,3 +1,14 @@
+"""
+This is specific to the HackerRank problem:
+https://www.hackerrank.com/challenges/dijkstrashortreach/problem
+
+Things to remember:
+1. The input can have repeated edges, in that case consider the edge
+   with the lowest weight to form the graph
+2. If you have used Infinity to calculate the distance dictionary, make sure
+   to replace it with -1 in the end for the requirements.
+   
+"""
 import heapq
 from collections import defaultdict
 
@@ -32,8 +43,8 @@ def relax(u, v, graph, d, p, pq):
             heapq.heappush(pq,[d[v], v, True])
 
 
-def shortestReach(n, graph, s):
-    d, p, pq = initialize(graph, s)
+def shortestReach(n, graph, source):
+    d, p, pq = initialize(graph, source)
     s = set()
     while pq:
         _, u, status = heapq.heappop(pq)
@@ -42,10 +53,10 @@ def shortestReach(n, graph, s):
         s.add(u)
         for v in graph[u]:
             relax(u, v, graph, d, p, pq)
-    output = [-1] * n-1
+    output = [-1] * n
     for k,v in d.items():
-        output[k-1] = v
-    output.pop(s-1)
+        output[k-1] = v if v != float('Inf') else -1
+    output.pop(source-1)
     return output
 
 
@@ -66,7 +77,10 @@ if __name__ == '__main__':
         for _ in range(m):
             #edges.append(list(map(int, input().rstrip().split())))
             u, v, w = list(map(int, raw_input().rstrip().split()))
+            if graph.has_key(u) and graph[u].has_key(v) and graph[u][v] < w:
+                continue
             graph[u][v] = w
+            graph[v][u] = w
 
         s = int(input())
 

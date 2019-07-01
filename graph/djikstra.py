@@ -6,6 +6,7 @@ Graph: Implemented using a dict which contains vertices V as
 
 import heapq
 
+
 def initialize(graph, source):
     # shortest path estimate of each v
     d = {}
@@ -21,6 +22,7 @@ def initialize(graph, source):
     d[source] = 0
     heapq.heappush(pq, [d[source], source, True])
     return d, p, pq
+
 
 def relax(u, v, graph, d, p, pq):
     update_pq = True
