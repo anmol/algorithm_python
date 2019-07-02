@@ -7,7 +7,7 @@ Things to remember:
    with the lowest weight to form the graph
 2. If you have used Infinity to calculate the distance dictionary, make sure
    to replace it with -1 in the end for the requirements.
-   
+
 """
 import heapq
 from collections import defaultdict
