@@ -13,6 +13,7 @@
 
 # quick sort is a divide and conquer algorithm
 
+
 def partition(l, min, max):
     pivot = min
     i = min

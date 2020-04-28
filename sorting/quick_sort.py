@@ -1,5 +1,6 @@
 #!/usr/bin/env python2.7
 
+
 # Note : in CLRS index starts from 1 to length of the array
 #        Since, the python list index starts from 0
 #        we keep the args from 0 to last index i.e., (length - 1)
